@@ -1,0 +1,60 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Optional enhancements */
+.App h1,
+.App h2,
+.App h3 {
+  color: #7f9cf5; /* Tailwind's indigo-400 */
+}
+
+.App button {
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App button:hover {
+  background-color: #4338ca;
+}
+
+.App input,
+.App textarea,
+.App select {
+  background-color: #2d2d44;
+  color: #e0e0e0;
+  border: 1px solid #3f3f5f;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.App input:focus,
+.App textarea:focus,
+.App select:focus {
+  border-color: #7f9cf5;
+  outline: none;
+}
+
+.App label {
+  display: block;
+  font-weight: 600;
+  color: #a5b4fc;
+  margin-bottom: 0.25rem;
+}
